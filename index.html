@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veranca Quote Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating hearts background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <main class="main-content">
+        <div class="hero-photo">
+            <img src="images/IMG_0439.JPG" alt="Us" class="hero-img">
+        </div>
+
+        <header class="header">
+            <h1 class="title">Veranca Quote Generator</h1>
+            <p class="subtitle">Things you say that make me smile</p>
+        </header>
+
+        <div class="quote-card" id="quoteCard">
+            <div class="quote-icon">💗</div>
+            <p class="quote-text" id="quoteText">Click the button to hear something Veranca would say...</p>
+            <div class="quote-context" id="quoteContext"></div>
+        </div>
+
+        <div class="controls">
+            <button class="generate-btn" id="generateBtn">
+                <span class="btn-icon">💌</span>
+                <span class="btn-text">Generate a Quote</span>
+            </button>
+            <button class="speak-btn" id="speakBtn" disabled title="Read quote aloud">
+                <span class="btn-icon">🔊</span>
+            </button>
+        </div>
+
+        <footer class="footer">
+            <p>Happy Valentine's Day, My Baby Jaan ❤️</p>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
