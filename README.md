@@ -1,6 +1,6 @@
 # VDAY
 
-# Project Context: Veranca Quote Generato]
+# Project Context: Veranca Quote Generator
 
 ## 1. Project Overview
 
